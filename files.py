@@ -29,7 +29,7 @@ class DoesNotExist(Exception):
 
 
 def get_file_dir():
-    return os.path.normpath(request.app.config['filedir'])
+    return os.path.normpath(request.app.config['filesdir'])
 
 
 def get_full_path(path):
